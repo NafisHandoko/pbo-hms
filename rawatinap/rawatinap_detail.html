@@ -199,16 +199,31 @@
                             <div class="card-body">
                                 <form class="form-horizontal form-material">
                                     <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">NIK</label>
+                                        <label class="col-md-12 p-0">NIK Pasien</label>
                                         <div class="col-md-12 border-bottom p-0">
                                             <input type="text" placeholder="Masukkan 16 digit NIK"
                                                 class="form-control p-0 border-0" name="nik" value="3517081904060002"> </div>
                                     </div>
                                     <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">Biaya</label>
-                                        <div class="col-md-12 border-bottom p-0">
-                                            <input type="number"
-                                                class="form-control p-0 border-0" placeholder="Biaya(Rp)" name="biaya" value="525000">
+                                        <label class="col-sm-12">Kamar</label>
+                                        <div class="col-sm-12 border-bottom">
+                                            <select class="form-select shadow-none p-0 border-0 form-control-line" name="id_ruang">
+                                                <option>-</option>
+                                                <option selected>Melati A</option>
+                                                <option>Mawar A</option>
+                                                <option>ICU B</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-sm-12">Dokter</label>
+                                        <div class="col-sm-12 border-bottom">
+                                            <select class="form-select shadow-none p-0 border-0 form-control-line" name="id_dokter">
+                                                <option>-</option>
+                                                <option>dr. Carlina Cornain, Sp.A</option>
+                                                <option selected>dr. Juni Suparjo</option>
+                                                <option>dr. Arry Rodjani, Sp.U (K)</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="d-flex flex-row">
