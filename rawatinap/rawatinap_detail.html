@@ -128,14 +128,14 @@
                             </a>
                         </li>
                         <li class="sidebar-item pt-2">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pembayaran.html"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="../pembayaran/pembayaran.html"
                                 aria-expanded="false">
                                 <i class="fas fa-donate" aria-hidden="true"></i>
                                 <span class="hide-menu">Pembayaran</span>
                             </a>
                         </li>
                         <li class="sidebar-item pt-2">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="../rawatinap/rawatinap.html"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="rawatinap.html"
                                 aria-expanded="false">
                                 <i class="fas fa-bed" aria-hidden="true"></i>
                                 <span class="hide-menu">Rawat Inap</span>
@@ -166,7 +166,15 @@
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Tambah Data Pembayaran</h4>
+                        <h4 class="page-title">Detail Pembayaran</h4>
+                    </div>
+                    <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+                        <div class="d-md-flex">
+                            <ol class="breadcrumb ms-auto">
+                                <li><a href="#" class="fw-normal"></a></li>
+                            </ol>
+                            <a href="pembayaran.html" class="btn btn-primary d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Back</a>
+                        </div>
                     </div>
                 </div>
                 <!-- /.col-lg-12 -->
@@ -194,24 +202,24 @@
                                         <label class="col-md-12 p-0">NIK</label>
                                         <div class="col-md-12 border-bottom p-0">
                                             <input type="text" placeholder="Masukkan 16 digit NIK"
-                                                class="form-control p-0 border-0" name="nik"> </div>
+                                                class="form-control p-0 border-0" name="nik" value="3517081904060002"> </div>
                                     </div>
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">Biaya</label>
                                         <div class="col-md-12 border-bottom p-0">
                                             <input type="number"
-                                                class="form-control p-0 border-0" placeholder="Biaya(Rp)" name="biaya">
+                                                class="form-control p-0 border-0" placeholder="Biaya(Rp)" name="biaya" value="525000">
                                         </div>
                                     </div>
                                     <div class="d-flex flex-row">
                                         <div class="form-group mb-4 me-2">
                                             <div class="col-sm-12">
-                                                <button class="btn btn-success">Tambah Data</button>
+                                                <button class="btn btn-success">Update Data</button>
                                             </div>
                                         </div>
                                         <div class="form-group mb-4">
                                             <div class="col-sm-12">
-                                                <a href="pembayaran.html" class="btn btn-primary">Back</a>
+                                                <button class="btn btn-danger text-white">Hapus</button>
                                             </div>
                                         </div>
                                     </div>
